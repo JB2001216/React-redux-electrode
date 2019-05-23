@@ -1,5 +1,5 @@
 {
-  "name": "React-redux-electrode",
+  "name": "electrode-redux-router-engine",
   "version": "1.0.0",
   "description": "Handle async data for React Server Side Rendering using Redux and Router",
   "main": "lib/redux-router-engine.js",
@@ -8,13 +8,17 @@
     "lint": "gulp lint",
     "coverage": "gulp check"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electrode-io/electrode-redux-router-engine.git"
+  },
   "keywords": [
     "React",
     "Redux",
     "SSR",
     "router"
   ],
-  "author": "James Boand",
+  "author": "Joel Chen <xchen@walmartlabs.com>",
   "license": "Apache-2.0",
   "devDependencies": {
     "electrode-archetype-njs-module-dev": "^1.0.1",

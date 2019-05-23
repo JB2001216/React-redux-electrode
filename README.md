@@ -5,7 +5,7 @@ Handle async data for React Server Side Rendering using [react-router], Redux, a
 ## Install
 
 ```bash
-$ npm install -save electrode-redux-router-engine
+$ npm install -save React-redux-electrode
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ And an example using the [Redux Async Actions] pattern:
 
 ```js
 
-const ReduxRouterEngine = require("electrode-redux-router-engine");
+const ReduxRouterEngine = require("React-redux-electrode");
 
 function createReduxStore(req, match) {
     // this refs to engine
